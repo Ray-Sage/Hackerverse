@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackerverse Cybersecurity Training - Lesson 2</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 25px;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #58a6ff;
+    }
+    header p {
+      margin-top: 8px;
+      font-style: italic;
+      color: #8b949e;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .lesson {
+      background: #161b22;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .lesson h2 {
+      color: #f78166;
+      margin-bottom: 10px;
+    }
+    .example {
+      background: #21262d;
+      padding: 15px;
+      border-left: 4px solid #f78166;
+      margin: 15px 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    .tips {
+      background: #1c2128;
+      padding: 15px;
+      border-left: 4px solid #58a6ff;
+      margin: 15px 0;
+      border-radius: 6px;
+    }
+    .quiz {
+      margin-top: 20px;
+      padding: 20px;
+      background: #21262d;
+      border-radius: 10px;
+    }
+    .quiz h3 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+    button {
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 8px 5px 0 0;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background: #2ea043;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hackerverse Cybersecurity Training</h1>
+    <p>Lesson 2: Password Security & Best Practices</p>
+  </header>
+
+  <div class="container">
+    <div class="lesson">
+      <h2>🔑 Why Password Security Matters</h2>
+      <p>
+        Passwords are the first line of defense for your online accounts.
+        Weak or reused passwords are one of the top reasons hackers gain
+        access to sensitive data. According to <em>Verizon’s Data Breach
+        Report (2023)</em>, over 80% of breaches involved stolen or weak
+        passwords.
+      </p>
+
+      <div class="example">
+        <strong>Real-Life Example:</strong><br>
+        In 2012, LinkedIn suffered a massive data breach where over 117 million
+        user accounts were leaked. Many passwords were simple like "123456" or
+        "password," making it easy for attackers to exploit other accounts since
+        users often reuse the same password across different sites.
+      </div>
+
+      <h2>🛠️ Characteristics of a Strong Password</h2>
+      <ul>
+        <li>At least 12 characters long.</li>
+        <li>Mix of uppercase, lowercase, numbers, and special symbols.</li>
+        <li>Not based on dictionary words or personal details (birthdays, names).</li>
+        <li>Unique for every account (no reuse!).</li>
+      </ul>
+
+      <div class="tips">
+        <strong>Pro Tip:</strong> Use a <strong>password manager</strong> like
+        Bitwarden, 1Password, or LastPass to generate and store strong, unique
+        passwords for every account. This way, you only need to remember one
+        master password.
+      </div>
+
+      <h2>🛡️ Additional Protection: 2-Factor Authentication (2FA)</h2>
+      <p>
+        Even the strongest password can be compromised. 2FA adds an extra step,
+        like a text code, authenticator app, or biometric verification, making it
+        far harder for attackers to break in.
+      </p>
+      
+      <h3>Try it yourself</h3>
+      <p>To test yiur password strength, kindly go to our HackerVerse Vurtual Lab. <br> Type this command (checkpass 'password') this will send a command to test the strength of your password whether it is medium, strong or weak. <br> To make a powerful Password, use the same HV(HackerVerse) Lab to do so. Write a simple command (genpass <lenth>) genpass will make you a tromg password. the length tells the system how many charactors you want. So it can look like this: genpass 8, it will make me a password of 8 charactors which is strong.</p>
+<a href="index.html">Open Hv Labs</a>
+      <div class="quiz">
+        <h3>Quick Quiz</h3>
+        <p>Which of these is the <strong>strongest password</strong>?</p>
+        <button onclick="alert('❌ Too weak. Never use simple passwords like 123456.')">
+          123456
+        </button>
+        <button onclick="alert('❌ Reusing birthdays makes accounts easy to hack.')">
+          John1998
+        </button>
+        <button onclick="alert('✅ Correct! A random mix of characters is the most secure.')">
+          h7!Xc9@Pz2$Q
+        </button>
+      </div>
+
+      <p style="margin-top: 20px; text-align: right;">
+        <a href="lesson1.html">⬅️ Back to Lesson 1</a> |
+        <a href="lesson3.html">Go to Lesson 3 ➡️</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
