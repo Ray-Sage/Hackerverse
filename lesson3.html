@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackerverse Cybersecurity Training - Lesson 3</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 25px;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #58a6ff;
+    }
+    header p {
+      margin-top: 8px;
+      font-style: italic;
+      color: #8b949e;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .lesson {
+      background: #161b22;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .lesson h2 {
+      color: #f78166;
+      margin-bottom: 10px;
+    }
+    .example {
+      background: #21262d;
+      padding: 15px;
+      border-left: 4px solid #f78166;
+      margin: 15px 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    .tips {
+      background: #1c2128;
+      padding: 15px;
+      border-left: 4px solid #58a6ff;
+      margin: 15px 0;
+      border-radius: 6px;
+    }
+    .quiz {
+      margin-top: 20px;
+      padding: 20px;
+      background: #21262d;
+      border-radius: 10px;
+    }
+    .quiz h3 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+    button {
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 8px 5px 0 0;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background: #2ea043;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hackerverse Cybersecurity Training</h1>
+    <p>Lesson 3: Malware & Ransomware</p>
+  </header>
+
+  <div class="container">
+    <div class="lesson">
+      <h2>💻 What is Malware?</h2>
+      <p>
+        Malware (malicious software) is any program or file designed to harm, exploit,
+        or gain unauthorized access to a computer system. Malware includes viruses,
+        worms, trojans, spyware, adware, and ransomware.
+      </p>
+
+      <div class="example">
+        <strong>Real-Life Example:</strong><br>
+        In 2017, the <strong>WannaCry ransomware attack</strong> infected over 200,000
+        computers across 150 countries. It locked files on Windows computers and demanded
+        Bitcoin payments to restore access. Hospitals, banks, and businesses were severely
+        disrupted, showing the devastating impact of ransomware.
+      </div>
+
+      <h2>🔎 Common Types of Malware</h2>
+      <ul>
+        <li><strong>Virus:</strong> Attaches to files and spreads when those files are shared.</li>
+        <li><strong>Worm:</strong> Self-replicates across networks without user action.</li>
+        <li><strong>Trojan:</strong> Disguises as legitimate software to trick users.</li>
+        <li><strong>Spyware:</strong> Secretly monitors user activity (like keyloggers).</li>
+        <li><strong>Adware:</strong> Shows unwanted ads and can slow systems down.</li>
+        <li><strong>Ransomware:</strong> Locks or encrypts files until a ransom is paid.</li>
+      </ul>
+
+      <h2>🛡️ How to Protect Against Malware</h2>
+      <ul>
+        <li>Install and update reputable antivirus/antimalware software.</li>
+        <li>Keep operating systems and apps updated (patch vulnerabilities).</li>
+        <li>Don’t download files or software from unknown sources.</li>
+        <li>Avoid clicking suspicious links or email attachments.</li>
+        <li>Back up important data regularly to external drives or cloud storage.</li>
+      </ul>
+
+      <div class="tips">
+        <strong>Pro Tip:</strong> Backups are your best defense against ransomware.
+        Even if attackers encrypt your files, you can restore them without paying.
+      </div>
+
+      <div class="quiz">
+        <h3>Quick Quiz</h3>
+        <p>You receive an email attachment named <code>invoice.pdf.exe</code> from an unknown sender. What should you do?</p>
+        <button onclick="alert('✅ Correct! Suspicious attachments should be deleted immediately.')">
+          Delete it without opening
+        </button>
+        <button onclick="alert('❌ Wrong. Opening it could install malware on your system.')">
+          Open the attachment
+        </button>
+        <button onclick="alert('❌ Wrong. Forwarding a malicious file puts others at risk.')">
+          Forward it to a friend
+        </button>
+      </div>
+
+      <p style="margin-top: 20px; text-align: right;">
+        <a href="lesson2-passwords.html">⬅️ Back to Lesson 2</a> |
+        <a href="lesson4-social.html">Go to Lesson 4 ➡️</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
