@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackerverse Cybersecurity Training</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 25px;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #58a6ff;
+    }
+    header p {
+      margin-top: 8px;
+      font-style: italic;
+      color: #8b949e;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .lesson {
+      background: #161b22;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .lesson h2 {
+      color: #f78166;
+      margin-bottom: 10px;
+    }
+    .example {
+      background: #21262d;
+      padding: 15px;
+      border-left: 4px solid #f78166;
+      margin: 15px 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    .tips {
+      background: #1c2128;
+      padding: 15px;
+      border-left: 4px solid #58a6ff;
+      margin: 15px 0;
+      border-radius: 6px;
+    }
+    .quiz {
+      margin-top: 20px;
+      padding: 20px;
+      background: #21262d;
+      border-radius: 10px;
+    }
+    .quiz h3 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+    button {
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 8px 5px 0 0;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background: #2ea043;
+    }
+    #btn1 {
+        color: #ffffff;
+        width: 315px;
+        height: 50px;
+        background-color: blue;
+        
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hackerverse Cybersecurity Training</h1>
+    <p>Lesson 1: Understanding Phishing Attacks</p>
+  </header>
+
+  <div class="container">
+    <div class="lesson">
+      <h2>📌 What is Phishing?</h2>
+      <p>
+        Phishing is one of the most common cyber threats where attackers
+        disguise themselves as trusted organizations (like banks, delivery
+        companies, or even government agencies) to trick people into sharing
+        sensitive information such as passwords, credit card numbers, or
+        social security details.
+      </p>
+
+      <div class="example">
+        <strong>Real-Life Example:</strong><br>
+        In 2020, cybercriminals sent millions of emails pretending to be from 
+        Netflix. The message claimed the user's subscription was expiring and 
+        asked them to "update payment details." Victims who clicked the link 
+        were taken to a fake website that stole their credit card numbers.
+      </div>
+
+      <h2>🔍 How to Spot a Phishing Attempt</h2>
+      <ul>
+        <li>Unexpected requests for personal information.</li>
+        <li>Suspicious email addresses (e.g., "support@netf1ix.com").</li>
+        <li>Urgent or threatening language ("Your account will be closed today!").</li>
+        <li>Links that redirect to fake websites.</li>
+        <li>Poor spelling and grammar in messages.</li>
+      </ul>
+
+      <div class="tips">
+        <strong>Pro Tip:</strong> Always hover over a link before clicking.
+        If the address looks suspicious or doesn’t match the official domain,
+        do not open it.
+      </div>
+
+      <h2>🛡️ How to Protect Yourself</h2>
+      <ul>
+        <li>Never share sensitive details through email or SMS.</li>
+        <li>Use <strong>multi-factor authentication (MFA)</strong> for important accounts.</li>
+        <li>Verify requests by contacting the organization directly.</li>
+        <li>Keep your browser and security software updated.</li>
+      </ul>
+
+      <div class="quiz">
+        <h3>Quick Quiz</h3>
+        <p>You receive an email from your "bank" saying:</p>
+        <blockquote>
+          "Your account is locked. Click the link below and enter your username and password to restore access."
+        </blockquote>
+        <p>What should you do?</p>
+        <button onclick="alert('✅ Correct! Contact your bank directly through official channels. Never click suspicious links.')">
+          Ignore and call the bank
+        </button>
+        <button onclick="alert('❌ Wrong. Entering your details would expose your credentials to attackers.')">
+          Click the link and log in
+        </button>
+        <button onclick="alert('❌ Wrong. Forwarding your password is exactly what attackers want.')">
+          Reply with password
+        </button>
+      </div>
+    </div>
+    <center><a href="lesson2.html"><button id="btn1">NEXT ➡️</button></a></center>
+    
+    
+  
+    
+  </div>
+  
+</body>
+</html>
